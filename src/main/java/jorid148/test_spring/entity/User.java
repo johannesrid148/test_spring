@@ -1,7 +1,12 @@
 package jorid148.test_spring.entity;
 
+import javax.persistence.*;
+import java.io.Serializable;
+import java.util.LinkedList;
+import java.util.List;
+
 @Entity
-public class User implements Serializable{
+public class User implements Serializable {
     private static final long serialVersionUID = 0x62A6DA99AABDA8A8L;
     @Column
     @GeneratedValue(strategy = GenerationType.AUTO)
