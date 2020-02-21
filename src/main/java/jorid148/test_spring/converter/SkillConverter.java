@@ -13,4 +13,3 @@ public class SkillConverter {
         return new SkillDto(skill.getSkillId(), skill.getSkillName());
     }
 }
-}

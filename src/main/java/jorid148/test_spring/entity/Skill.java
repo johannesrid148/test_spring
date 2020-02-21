@@ -1,5 +1,7 @@
 package jorid148.test_spring.entity;
 
+import javax.persistence.*;
+
 @Entity
 public class Skill {
     @Column
